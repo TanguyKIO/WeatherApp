@@ -10,17 +10,17 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="420dp"
-        android:layout_height="415dp"
+        android:layout_width="494dp"
+        android:layout_height="578dp"
         android:baselineAligned="false"
         android:gravity="center_horizontal|center_vertical"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.05">
+        app:layout_constraintVertical_bias="0.12">
 
         <TextView
             android:id="@+id/city"
@@ -29,21 +29,21 @@
             android:fontFamily="@font/exo"
             android:text="Lyon"
             android:textColor="#FFFFFF"
-            android:textSize="30sp" />
+            android:textSize="40sp" />
 
         <ImageView
             android:id="@+id/current_weather"
-            android:layout_width="182dp"
-            android:layout_height="161dp" />
+            android:layout_width="257dp"
+            android:layout_height="255dp" />
 
         <TextView
             android:id="@+id/current_temp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/exo"
-            android:padding="5pt"
+            android:padding="10pt"
             android:textColor="#FFFFFF"
-            android:textSize="45sp" />
+            android:textSize="60sp" />
 
         <Button
             android:id="@+id/refresh"
@@ -61,56 +61,56 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/exo"
-            android:padding="5pt"
+            android:padding="10pt"
             android:text="Text view"
             android:textColor="#FFFFFF"
-            android:textSize="18sp" />
+            android:textSize="24sp" />
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout2"
-        android:layout_width="295dp"
-        android:layout_height="274dp"
+        android:layout_width="376dp"
+        android:layout_height="294dp"
         android:gravity="center_vertical"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.405"
+        app:layout_constraintHorizontal_bias="0.191"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.964">
+        app:layout_constraintVertical_bias="0.773">
 
         <TextView
             android:id="@+id/temp1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/exo"
-            android:padding="6pt"
+            android:padding="7pt"
             android:text="TextView"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
-            android:textSize="22sp" />
+            android:textSize="28sp" />
 
         <TextView
             android:id="@+id/temp2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/exo"
-            android:padding="6pt"
+            android:padding="7pt"
             android:text="TextView"
             android:textColor="#FFFFFF"
-            android:textSize="22sp" />
+            android:textSize="28sp" />
 
         <TextView
             android:id="@+id/temp3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/exo"
-            android:padding="6pt"
+            android:padding="7pt"
             android:password="false"
             android:text="TextView"
             android:textColor="#FFFFFF"
-            android:textSize="22sp" />
+            android:textSize="28sp" />
 
         <TextView
             android:id="@+id/temp4"
@@ -120,40 +120,40 @@
             android:padding="7pt"
             android:text="TextView"
             android:textColor="#FFFFFF"
-            android:textSize="22sp" />
+            android:textSize="28sp" />
 
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="82dp"
-        android:layout_height="238dp"
+        android:layout_width="101dp"
+        android:layout_height="294dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.951"
+        app:layout_constraintHorizontal_bias="0.915"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.949">
+        app:layout_constraintVertical_bias="0.798">
 
         <ImageView
             android:id="@+id/weather1"
-            android:layout_width="54sp"
-            android:layout_height="54sp" />
+            android:layout_width="64sp"
+            android:layout_height="64sp" />
 
         <ImageView
             android:id="@+id/weather2"
-            android:layout_width="54sp"
-            android:layout_height="54sp" />
+            android:layout_width="64sp"
+            android:layout_height="64sp" />
 
         <ImageView
             android:id="@+id/weather3"
-            android:layout_width="54sp"
-            android:layout_height="54sp" />
+            android:layout_width="64sp"
+            android:layout_height="64sp" />
 
         <ImageView
             android:id="@+id/weather4"
-            android:layout_width="54sp"
-            android:layout_height="54sp" />
+            android:layout_width="64sp"
+            android:layout_height="64sp" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
